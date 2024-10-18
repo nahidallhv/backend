@@ -17,7 +17,7 @@ class ContactView(APIView):
                 f"New Message from {name}",
                 message,
                 email,
-                ['senin-email@gmail.com'],  # Email alıcısı
+                ['nahiddallhvv25@gmail.com'],  # Email alıcısı
                 fail_silently=False,
             )
             return Response({'success': True, 'message': 'Email sent successfully'}, status=status.HTTP_200_OK)
