@@ -27,7 +27,11 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'backend-nahid-3795bca11ddb.herokuapp.com',
+    '127.0.0.1',
+    'localhost',
+]
 
 
 CORS_ALLOWED_ORIGINS = [
